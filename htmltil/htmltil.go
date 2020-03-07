@@ -37,7 +37,7 @@ func OpenByBrowser(uri string) (err error) {
 	}
 }
 
-//url的query请求解析，如：http://example.com?name=truthhun&age=18&hobbies[]=football&hobbies[]=swimming，则这里的QueryStr为问号后面的部分
+//url的query请求解析，如：http://example.com?name=hawkwang&age=18&hobbies[]=football&hobbies[]=swimming，则这里的QueryStr为问号后面的部分
 //@param		QueryStr		请求字符串
 //@return		params			解析后的参数，如果有select或者checkbox等多选的情况下，则interface{}为[]string类型，否则都是string，在使用的时候，用类型断言即可
 //需要注意的是，如果请求参数中的参数名带有“[]”，那么解析后的参数中也是带有中括号的

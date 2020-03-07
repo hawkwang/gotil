@@ -1,4 +1,4 @@
-module github.com/TruthHun/gotil
+module github.com/hawkwang/gotil
 
 go 1.13
 
